@@ -100,9 +100,9 @@ app.put("/api/pokemons/:id", (req, res) => {
     fs.writeFileSync(path.join(__dirname, './data/pokemons.json'), JSON.stringify(pokemonsList, null, 2), 'utf8');
 
     // Retourner une réponse indiquant que l'update a réussi
-    res.status(200).send({ message: "Pokémon mis à jour", pokemon: pokemonsList[pokemonIndex] });
+    res.status(200).send({ type: "succes", message: "Pokémon mis à jour", pokemon: pokemonsList[pokemonIndex] });
   } else{
-    return res.status(404).send({ message: "Pokémon non trouvé" });
+    return res.status(404).send({ type:"error", message: "Pokémon non trouvé" });
   }
 
 

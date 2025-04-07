@@ -1,5 +1,71 @@
 [
   {
+    "id": 1,
+    "name": {
+      "english": "Bulbasaur",
+      "japanese": "フシギダネ",
+      "chinese": "妙蛙种子",
+      "french": "Bulbizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "Sp. Attack": 65,
+      "Sp. Defense": 65,
+      "Speed": 45
+    },
+    "image": "http://localhost:3000/assets/pokemons/1.png"
+  },
+  {
+    "id": 2,
+    "name": {
+      "english": "Ivysaur",
+      "japanese": "フシギソウ",
+      "chinese": "妙蛙草",
+      "french": "Herbizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 62,
+      "Defense": 63,
+      "Sp. Attack": 80,
+      "Sp. Defense": 80,
+      "Speed": 60
+    },
+    "image": "http://localhost:3000/assets/pokemons/2.png"
+  },
+  {
+    "id": 3,
+    "name": {
+      "english": "Venusaur",
+      "japanese": "フシギバナ",
+      "chinese": "妙蛙花",
+      "french": "Florizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 83,
+      "Sp. Attack": 100,
+      "Sp. Defense": 100,
+      "Speed": 80
+    },
+    "image": "http://localhost:3000/assets/pokemons/3.png"
+  },
+  {
     "id": 4,
     "name": {
       "english": "Charmander",
@@ -769,6 +835,28 @@
     "image": "http://localhost:3000/assets/pokemons/39.png"
   },
   {
+    "id": 40,
+    "name": {
+      "english": "Wigglytuff",
+      "japanese": "プクリン",
+      "chinese": "胖可丁",
+      "french": "Grodoudou"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": {
+      "HP": 140,
+      "Attack": 70,
+      "Defense": 45,
+      "Sp. Attack": 85,
+      "Sp. Defense": 50,
+      "Speed": 45
+    },
+    "image": "http://localhost:3000/assets/pokemons/40.png"
+  },
+  {
     "id": 41,
     "name": {
       "english": "Zubat",
@@ -969,23 +1057,23 @@
   {
     "id": 50,
     "name": {
-      "english": "999",
-      "japanese": "999",
-      "chinese": "999",
-      "french": "999"
+      "english": "Diglett",
+      "japanese": "ディグダ",
+      "chinese": "地鼠",
+      "french": "Taupiqueur"
     },
     "type": [
-      "999"
+      "Ground"
     ],
     "base": {
-      "HP": 999,
-      "Attack": 999,
-      "Defense": 999,
-      "Sp. Attack": 999,
-      "Sp. Defense": 999,
-      "Speed": 999
+      "HP": 10,
+      "Attack": 55,
+      "Defense": 25,
+      "Sp. Attack": 35,
+      "Sp. Defense": 45,
+      "Speed": 95
     },
-    "image": ""
+    "image": "http://localhost:3000/assets/pokemons/50.png"
   },
   {
     "id": 51,
@@ -2038,7 +2126,27 @@
     },
     "image": "http://localhost:3000/assets/pokemons/99.png"
   },
-  {},
+  {
+    "id": 100,
+    "name": {
+      "english": "Voltorb",
+      "japanese": "ビリリダマ",
+      "chinese": "霹雳电球",
+      "french": "Voltorbe"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 30,
+      "Defense": 50,
+      "Sp. Attack": 55,
+      "Sp. Defense": 55,
+      "Speed": 100
+    },
+    "image": "http://localhost:3000/assets/pokemons/100.png"
+  },
   {
     "id": 101,
     "name": {
@@ -3128,51 +3236,5 @@
       "Speed": 100
     },
     "image": "http://localhost:3000/assets/pokemons/151.png"
-  },
-  {
-    "id": 999,
-    "name": {
-      "english": "999",
-      "japanese": "999",
-      "chinese": "999",
-      "french": "999"
-    },
-    "type": [
-      "999"
-    ],
-    "base": {
-      "HP": 999,
-      "Attack": 999,
-      "Defense": 999,
-      "Sp. Attack": 999,
-      "Sp. Defense": 999,
-      "Speed": 999
-    },
-    "image": ""
-  },
-  {},
-  {},
-  {},
-  {},
-  {
-    "id": 666,
-    "name": {
-      "english": "999",
-      "japanese": "999",
-      "chinese": "999",
-      "french": "999"
-    },
-    "type": [
-      "999"
-    ],
-    "base": {
-      "HP": 999,
-      "Attack": 999,
-      "Defense": 999,
-      "Sp. Attack": 999,
-      "Sp. Defense": 999,
-      "Speed": 999
-    },
-    "image": ""
   }
 ]

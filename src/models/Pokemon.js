@@ -21,13 +21,13 @@ const pokemonSchema = new mongoose.Schema({
   image: {
     type: String
   },
-  stats: {
-    hp: Number,
-    attack: Number,
-    defense: Number,
-    specialAttack: Number,
-    specialDefense: Number,
-    speed: Number
+  base: {
+    HP: Number,
+    Attack: Number,
+    Defense: Number,
+    SpAttack: Number,
+    SpDefense: Number,
+    Speed: Number
   },
   evolutions: [{
     type: Number,

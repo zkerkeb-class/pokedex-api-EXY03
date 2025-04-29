@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import pokemonRoutes from "./routes/pokemonRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 
 // Configuration des variables d'environnement
 dotenv.config();
@@ -26,6 +27,9 @@ app.use(cors({
 
 // Routes
 app.use("/api/pokemons", pokemonRoutes);
+
+app.use("/api/auth", authRoutes);
+
 
 // Route de base
 app.get("/", (req, res) => {
